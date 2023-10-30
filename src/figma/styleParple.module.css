@@ -1,0 +1,438 @@
+* {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+}
+
+.header {
+      width: 100%;
+      height: 1258px;
+      display: flex;
+}
+
+.logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      right: 30px;
+}
+
+.logo .hOne {
+      font-size: 35px;
+      font-weight: 400;
+      margin: 15px;
+      text-decoration: none;
+      color: black;
+}
+
+.logo h5 {
+      font-weight: 400;
+      font-size: 17px;
+}
+
+.check {
+      width: 50px;
+      height: 50px;
+}
+
+.chart {
+      position: relative;
+      top: 100px;
+}
+
+.header .add {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 200px;
+      top: 110px;
+}
+
+.chart h5 {
+      width: 190px;
+      height: 25px;
+      font-weight: 100;
+      font-size: 15px;
+      color: black;
+      text-transform: uppercase;
+}
+
+.chart h2 {
+      width: 345px;
+      height: 55px;
+      font-weight: lighter;
+      font-size: 36px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: black;
+}
+
+.chart p {
+      width: 305px;
+      height: 100px;
+      font-weight: 400;
+      font-size: 15px;
+      color: black;
+      padding: 40px 0 15px 0;
+      letter-spacing: 0.5px;
+}
+
+.chart .span {
+      font-weight: bold;
+      font-size: 14px;
+      color: black;
+}
+
+.chart h3 {
+      width: 90px;
+      height: 25px;
+      font-weight: 400;
+      font-size: 20px;
+      color: black;
+      position: relative;
+      top: 20px;
+}
+
+.add button {
+      width: 150px;
+      height: 40px;
+      background: white;
+      border: 2px solid black;
+      color: black;
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      top: 180px;
+      cursor: pointer;
+}
+
+.radios {
+      width: 380px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      top: 150px;
+}
+
+.radios input[type="radio"] {
+      opacity: 0;
+      position: fixed;
+      width: 0;
+}
+
+.radios .labelSize {
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 15px;
+      text-align: center;
+      border: 1px solid gray;
+      width: 20px;
+      margin: 0 5px;
+}
+
+.radios .labelSize:hover {
+      background: black;
+      color: white;
+}
+
+.radios .labelGreen {
+      display: inline-block;
+      background: #179082;
+      padding: 10px 10px;
+      text-align: center;
+      border-radius: 20px;
+      width: 20px;
+      color: #179082;
+}
+
+.labelPurple {
+      display: inline-block;
+      background: #77239F;
+      padding: 10px 10px;
+      text-align: center;
+      border-radius: 20px;
+      width: 20px;
+      position: relative;
+      left: 10px;
+      color: #77239F;
+} 
+
+.radios .radioOne {
+      width: 90px;
+      height: 45px;
+}
+
+.radios .size:checked + label {
+      background: black;
+      color: white;
+}
+
+.radios .color:checked + label {
+      border: 2px solid black;
+}
+
+.radios .radioTwo {
+      width: 210px;
+      height: 45px;
+      position: relative;
+      left: 40px;
+}
+
+.radios .size {
+      width: 60px;
+      height: 30px;
+      font-weight: 400;
+      font-size: 14px;
+      position: relative;
+      left: 50px;
+}
+
+.header .slider {
+      background: url(./images/2\ 24\ \(1\).png) no-repeat;
+      width: 610px;
+      height: 1370px;
+      position: relative;
+      left: 300px;
+}
+
+.bag {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      left: 250px;
+      top: 60px;
+}
+
+.parple {
+      background: url(./images/футер\ 1.png) ;
+      width: 100%;
+      height: 115px;
+      background-size: cover;
+}
+
+.main {
+      width: 100%;
+      height: 1750px;
+      display: flex;
+}
+
+.down {
+      width: 50px;
+      height: 80px;
+      position: relative;
+      top: 300px;
+}
+
+.down .arrow {
+      width: 100%;
+      height: 100%;
+      color: black;
+}
+
+.main .oneSide, .twoSide {
+      width: 33%;
+      height: 100%;
+      position: relative;
+      left: 90px;
+      top: 90px;
+      display: flex;
+      flex-direction: column;
+}
+
+.oneSide h2 {
+      width: 130px;
+      height: 50px;
+      font-weight: 400;
+      font-size: 30px;
+      letter-spacing: 1px;
+}
+
+.oneSide .spanOne {
+      width: 500px;
+      height: 150px;
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      top: 30px;
+}
+
+.oneSide .imgOne {
+      background: url(./images/подклад2\ 1.png) no-repeat;
+      width: 500px;
+      height: 576px;
+      position: relative;
+      top: 50px;
+}
+
+.oneSide .spanTwo {
+      width: 500px;
+      height: 125px;
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      top: 70px;
+}
+
+.oneSide .imgTwo {
+      background: url(./images/капюшон\ 1\ \(1\).png) no-repeat;
+      width: 500px;
+      height: 500px;
+      position: relative;
+      top: 90px;
+}
+
+.main .mark {
+      width: 20%;
+      height: 100%;
+}
+
+.mark .check {
+      width: 80px;
+      height: 40px;
+      position: relative;
+      top: 90px;
+      left: 200px;
+}
+
+.twoSide .imgOne {
+      background: url(./images/улыбка\ 1.png) no-repeat;
+      width: 500px;
+      height: 500px;
+}
+
+.twoSide .spanOne {
+      width: 500px;
+      height: 250px;
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      top: 50px;
+      text-indent: 2px;
+}
+
+.twoSide .imgTwo {
+      background: url(./images/циферблат\ 1\ \(1\).png)no-repeat;
+      width: 500px;
+      height: 655px;
+      position: relative;
+      top: 50px;
+}
+
+.twoSide .spanTwo {
+      width: 500px;
+      height: 150px;
+      font-weight: 400;
+      font-size: 15px;
+      position: relative;
+      top: 100px;
+      text-indent: 2px;
+}
+
+.joker {
+      width: 100%;
+      height: 700px;
+      display: flex;
+}
+
+.imgJoker {
+      background: url(./images/image\ 4.png) no-repeat;
+      width: 50%;
+      height: 480px;
+      position: relative;
+      left: 100px;
+      top: 100px;
+}
+
+.postcard {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.postcard h2 {
+      width: 515px;
+      height: 120px;
+      font-weight: 400;
+      font-size: 40px;
+}
+
+.signed {
+      display: flex;
+}
+
+.signed .photo {
+      width: 210px;
+      height: 210px;
+      background: url(./images/Ellipse\ 15.png) no-repeat;
+      position: relative;
+      top: 30px;
+}
+
+.text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+}
+
+.text span {
+      width: 250px;
+      height: 100px;
+      font-weight: 400;
+      font-size: 15px;
+}
+
+.text .sign {
+      width: 300px;
+      height: 70px;
+      background: url(./images/Подпись\ eng\ png\ 1.png) no-repeat;
+      position: relative;
+      top: 50px;
+      right: 20px;
+}
+
+.footer {
+      width: 100%;
+      height: 1280px;
+}
+
+.footer .img {
+      background: url(./images/упаковка3\ 1\ \(1\).png)no-repeat;
+      width: 1203px;
+      height: 1280px;
+}
+
+.full {
+      width: 250px;
+      height: 250px;
+      position: relative;
+      left: 1040px;
+      bottom: 380px;
+}
+
+.full .imgChild {
+      background: url(./images/Ellipse\ 15\ \(1\).png) no-repeat;
+      width: 209px;
+      height: 209px;
+}
+
+.full h3 {
+      font-family: 'Tenor Sans';
+      color: black;
+      font-size: 50px;
+      font-weight: 600;
+      text-align: center;
+      position: relative;
+      top: 15px;
+}
+
+.full span {
+      font-family: 'Tenor Sans';
+      color: red;
+      font-size: 50px;
+      font-weight: 600;
+}

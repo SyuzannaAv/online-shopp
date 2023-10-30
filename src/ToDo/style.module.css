@@ -1,0 +1,62 @@
+body {
+      color: skyblue;
+}
+.on {
+      color: rgb(53, 50, 255) ;
+      font-size: 20px;
+      text-decoration: line-through;
+}
+
+.off {
+      color: skyblue;
+      font-size: 20px;
+}
+
+button {
+      width: 100px;
+      height: 30px;
+      border: 2px solid skyblue;
+      background: white;
+      margin: 5px;
+      color: skyblue;
+      font-size: 16px;
+}
+
+.input {
+      color: skyblue;
+      border: 2px solid skyblue;
+      height: 60px;
+      width: 500px;
+      margin: 10px auto;
+      display: flex;
+      align-items: center;     
+}
+
+.form {
+      height: 50px;
+      margin: 0 5px;
+      color: skyblue;
+      font-size: 18px;
+      border: 2px solid skyblue;
+}
+
+.card {
+      display: flex;
+      width: 500px;
+      height: 200px;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 2px solid skyblue;
+}
+
+.body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+h1 {
+      text-align: center;
+      margin: 30px;
+}
